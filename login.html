@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Index</title>
+
+<script src="/jquery.min.js"></script>
+
+<script>
+
+$(document).ready( function() {
+
+	
+	$('#Login').hide();
+	$('#Signup').hide();
+
+	$('#button_login').click( ()=>{
+		$('#Login').show();
+		$('#Signup').hide();
+	});
+
+	$('#button_sign').click( ()=>{
+		$('#Login').hide();
+		$('#Signup').show();
+	});
+});
+
+</script>
+
+
+
+
+</head>
+<body>
+
+<button type="button" id="button_login">Login</button>
+<button type="button" id="button_sign">Sign up</button>
+	<div id = "Login">
+		<h1>Login</h1>
+		<form method="POST">
+
+			Login: <input type="text" name="login"/>
+			<br>
+			Password: <input type="password" name="password"/>
+			<br>
+			<input type="submit" value="send"/>
+
+		</form>
+	</div>
+
+
+	<div id="Signup">
+		<h1>Sign up</h1>
+		<form method="POST">
+
+			Login: <input type="text" name="new_login"/>
+			<br>
+			Password: <input type="password" name="new_password"/>
+			<br>
+			<input type="submit" value="send"/>
+
+		</form>
+	</div>
+
+</body>
+</html>

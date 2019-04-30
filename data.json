@@ -1,0 +1,35 @@
+[
+  {
+    "world": "Harry Potter",
+    "rooms": [
+      "Chamber of secrets",
+      "Forbidden forest",
+      "Poudlard"
+    ],
+    "score" : 0
+  },
+  {
+    "verbs": ["DESCRIBE","SAY","TAKE","OPEN","FIND","READ","SWITCH ON", "SWITCH OFF"],
+    "nouns":["ROOM","WAND","BOX","KEY","DOOR","BOOK", "LIGHT", "PAINTING", "LIGHT SWITCH"]
+  },
+  {
+    "Poudlard_description" : ["</br>You are in a bigest room of the castle, it seems to be in a classroom, there are lot's of students table and books. I see lot's of painting on the wall, I don't see any issue... I can't see the end of the room because the light is off. There are tables with teaching books, papers and potions",
+      "</br>I can now see the end of the room, I can see the table of the teacher and the board, it's written Ridiculous, I think that there is a black box but I'm not sure, it's scary. Oh there is door on the left"
+    ],
+    "Wand_description" : [
+        "</br>This is a wand made of Alder wood with unicorn hair. Alder is an unyielding wood, yet I have discovered that its ideal owner is not stubborn or obstinate, but often helpful, considerate and most likeable. Unicorn hair generally produces the most consistent magic, and is least subject to fluctuations and blockages. Wands with unicorn cores are generally the most difficult to turn to the Dark Arts ",
+        "</br>This is a wand made of Alder wood with dragon heartstrings. A sensitive wand, hazel often reflects its owner’s emotional state and works best for a master who understands and can manage their own feelings. As a rule, dragon heartstrings produce wands with the most power, and which are capable of the most flamboyant spells"
+      ],
+    "Box" : "</br>This box is completely dark, it seems to be dangerous...",
+    "Key" : "</br>This is a simple key I think it can ... open a door",
+    "Door" : "</br>This a big brown door at the end of the room with a lock",
+    "Book" : [
+        "</br>It seems to be student books of Poudlard",
+        "</br>Oh, this is the book of Defence against the Dark Arts",
+        "</br>If you want to unlock something you need to use the spell alohomora and if you want to win against a boggart you have to say the spell ridiculous."
+      ],
+    "Light" : "</br>This is the Light of the end of the room",
+    "Painting" : "</br>sThis is a painting of Gilderoy Lockhart, previous teacher of Defence against the Dark Arts but he was victim of a Obliviate spell, he is crazy apparently",
+    "Lockhart" : "</br></br>Hi my friend I'm here in the painting, I'm Gilderoy Lockhart, the most beautiful wizard that the world know Mouahahah. I will tell you a secret, if you want to get out of this place you need a wand and you have one chance out of 4 if you say find wand... BUT if you say Accio wand you will have one chance out of 2. Good luck"
+  }
+]
